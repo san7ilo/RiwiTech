@@ -5,6 +5,7 @@ import com.riwi.RiwiTech.application.dtos.exception.UnauthorizedAccessException;
 import com.riwi.RiwiTech.application.dtos.requests.UserWithoutId;
 import com.riwi.RiwiTech.application.dtos.requests.UserWithoutIdAndRole;
 import com.riwi.RiwiTech.application.services.generic.*;
+import com.riwi.RiwiTech.domain.entities.User;
 import com.riwi.RiwiTech.domain.enums.Role;
 import com.riwi.RiwiTech.infrastructure.persistence.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
