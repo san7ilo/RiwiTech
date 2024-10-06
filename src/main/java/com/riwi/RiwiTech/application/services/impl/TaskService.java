@@ -5,6 +5,7 @@ import com.riwi.RiwiTech.application.dtos.mappers.TaskMapper;
 import com.riwi.RiwiTech.application.dtos.requests.TaskRequest;
 import com.riwi.RiwiTech.application.dtos.responses.TaskResponse;
 import com.riwi.RiwiTech.application.services.generic.*;
+import com.riwi.RiwiTech.domain.entities.Task;
 import com.riwi.RiwiTech.infrastructure.persistence.TaskRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
